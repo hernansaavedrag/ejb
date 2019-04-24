@@ -63,6 +63,16 @@
                                 <td>${cli.rut}</td>
                                 <td>${cli.nombre}</td>
                                 <td>${cli.apellido}</td>
+                                <td>
+                                    <a href="" class="btn-floating blue">
+                                        <i class="material-icons">mode_edit</i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="" class="btn-floating red">
+                                        <i class="material-icons">delete</i>
+                                    </a>
+                                </td>
                             </tr>
                         </c:forEach>
                     </table>
