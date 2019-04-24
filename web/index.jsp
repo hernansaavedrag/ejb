@@ -64,12 +64,12 @@
                                 <td>${cli.nombre}</td>
                                 <td>${cli.apellido}</td>
                                 <td>
-                                    <a href="" class="btn-floating blue">
+                                    <a href="actualizar.jsp" class="btn-floating blue">
                                         <i class="material-icons">mode_edit</i>
                                     </a>
                                 </td>
                                 <td>
-                                    <a href="" class="btn-floating red">
+                                    <a href="eliminar.jsp" class="btn-floating red">
                                         <i class="material-icons">delete</i>
                                     </a>
                                 </td>
