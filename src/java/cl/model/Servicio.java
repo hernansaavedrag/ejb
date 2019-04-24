@@ -57,4 +57,20 @@ public class Servicio implements ServicioLocal {
         }
     }
 
+    @Override
+    public String actualizar(String rut, String nombre, String apellido) {
+        Cliente cli = buscar(rut);
+        
+        if (cli == null) {
+            return "cliente no encontrado";
+        }else{
+            cli.setNombre(nombre);
+            cli.setApellido(apellido);
+            return "cliente modificado";
+        }
+
+    }
+    
+    
+
 }
