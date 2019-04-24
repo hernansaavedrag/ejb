@@ -17,6 +17,10 @@ public interface ServicioLocal {
 
     Cliente buscar(String rut);
 
+    String eliminar(String rut);
+
+    String actualizar(String rut, String nombre, String apellido);
+
     
     
 }
